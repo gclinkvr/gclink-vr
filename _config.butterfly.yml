@@ -1,0 +1,102 @@
+# =============================================
+# Butterfly 主题覆盖配置 - 灵见科技官网
+# =============================================
+
+# ===== 导航栏 =====
+nav:
+  logo: /img/logo.svg
+  display_title: true
+  fixed: false
+
+# ===== 菜单 =====
+menu:
+  首页: / || fas fa-home
+  案例展示: /showcase/ || fas fa-briefcase
+  服务项目: /services/ || fas fa-cube
+  关于灵见: /about/ || fas fa-heart
+  联系我们: /contact/ || fas fa-envelope
+
+# ===== 社交链接 =====
+social:
+  # github: https://github.com/yourname || fab fa-github
+  # email: mailto:contact@gclink-vr.com || fas fa-envelope
+
+# ===== 头像 =====
+avatar:
+  img: /img/logo.svg
+  effect: false
+
+# ===== 封面 =====
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: false
+
+# ===== 关闭顶部图片（首页不用文章图片做背景） =====
+disable_top_img: false
+
+# ===== 首页信息 =====
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+    startDelay: 300
+    typeSpeed: 80
+    backSpeed: 50
+    loop: true
+  sub:
+    - VR内容创作专家
+    - AR交互解决方案
+    - 元宇宙内容开发
+    - 沉浸式体验定制
+
+# ===== 侧边栏卡片 =====
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: false
+    tag: false
+    category: false
+  card_author:
+    enable: false
+  card_announcement:
+    enable: false
+  card_recent_post:
+    enable: false
+  card_newest_comments:
+    enable: false
+  card_categories:
+    enable: false
+  card_tags:
+    enable: false
+  card_archives:
+    enable: false
+  card_post_series:
+    enable: false
+  card_webinfo:
+    enable: false
+
+# ===== 底部 =====
+footer:
+  owner:
+    enable: true
+    since: 2025
+  copyright:
+    enable: true
+    version: false
+  custom_text: '© 2025 江西灵见虚拟现实科技有限公司 | 专注VR/AR内容开发 | 📞 15970985939 | 483448996@qq.com'
+
+
+
+# ===== 页脚装饰 =====
+hr_icon:
+  enable: true
+
+# ===== 注入自定义内容 =====
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">

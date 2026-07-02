@@ -1,0 +1,11 @@
+node_modules/
+public/
+.deploy*/
+db.json
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+source/_data/
+themes/butterfly/
+npm-debug.log*
