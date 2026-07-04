@@ -1,0 +1,270 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>服务项目 | 灵见科技</title><meta name="author" content="灵见科技"><meta name="copyright" content="灵见科技"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content=".services-page { padding: 40px 0; } .services-page .svc-grid {   display: grid;   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));   gap: 28px;   max-width: 1100px;   margin: 0 auto;   pa">
+<meta property="og:type" content="website">
+<meta property="og:title" content="服务项目">
+<meta property="og:url" content="https://gclinkvr.github.io/gclink-vr/services/index.html">
+<meta property="og:site_name" content="灵见科技">
+<meta property="og:description" content=".services-page { padding: 40px 0; } .services-page .svc-grid {   display: grid;   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));   gap: 28px;   max-width: 1100px;   margin: 0 auto;   pa">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gclinkvr.github.io/gclink-vr/img/logo.svg">
+<meta property="article:published_time" content="2024-12-31T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-07-03T10:05:38.680Z">
+<meta property="article:author" content="灵见科技">
+<meta property="article:tag" content="VR,AR,虚拟现实,增强现实,灵见科技">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gclinkvr.github.io/gclink-vr/img/logo.svg"><script type="application/ld+json"></script><link rel="shortcut icon" href="/gclink-vr/img/favicon.png"><link rel="canonical" href="https://gclinkvr.github.io/gclink-vr/services/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/gclink-vr/css/index.css?v=5.5.5"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/gclink-vr/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '服务项目',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/gclink-vr/img/logo.svg" onerror="this.onerror=null;this.src='/gclink-vr/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/gclink-vr/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/gclink-vr/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/gclink-vr/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/gclink-vr/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/showcase/"><i class="fa-fw fas fa-briefcase"></i><span> 案例展示</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/services/"><i class="fa-fw fas fa-cube"></i><span> 服务项目</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/about/"><i class="fa-fw fas fa-heart"></i><span> 关于灵见</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/contact/"><i class="fa-fw fas fa-envelope"></i><span> 联系我们</span></a></div></div></div></div><div class="page type-services" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/gclink-vr/"><img class="site-icon" src="/gclink-vr/img/logo.svg" alt="Logo"><span class="site-name">灵见科技</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/gclink-vr/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/showcase/"><i class="fa-fw fas fa-briefcase"></i><span> 案例展示</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/services/"><i class="fa-fw fas fa-cube"></i><span> 服务项目</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/about/"><i class="fa-fw fas fa-heart"></i><span> 关于灵见</span></a></div><div class="menus_item"><a class="site-page" href="/gclink-vr/contact/"><i class="fa-fw fas fa-envelope"></i><span> 联系我们</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">服务项目</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><style>
+.services-page { padding: 40px 0; }
+.services-page .svc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.services-page .svc-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px 28px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s;
+}
+.services-page .svc-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(99,102,241,0.15);
+  border-color: #6366f1;
+}
+.services-page .svc-icon { font-size: 52px; margin-bottom: 16px; display: block; }
+.services-page .svc-card h3 { font-size: 19px; margin-bottom: 12px; color: #1a1a2e; }
+.services-page .svc-card p { font-size: 14px; color: #666; line-height: 1.8; }
+.svc-detail { margin-top: 20px; text-align: left; }
+.svc-detail li { font-size: 13px; color: #555; margin-bottom: 6px; list-style: none; padding-left: 0; }
+.svc-detail li::before { content: '✓ '; color: #6366f1; font-weight: bold; }
+</style>
+
+<div class="services-page">
+
+<h2 id="🎯-我们的服务"><a href="#🎯-我们的服务" class="headerlink" title="🎯 我们的服务"></a>🎯 我们的服务</h2><div class="svc-grid">
+
+<h3 id="🕶️-VR-内容开发"><a href="#🕶️-VR-内容开发" class="headerlink" title="🕶️ VR 内容开发"></a>🕶️ VR 内容开发</h3><div class="svc-card">
+
+<p><strong>虚拟现实内容定制开发</strong></p>
+<p>运用 Unity &#x2F; Unreal Engine 等主流引擎，为客户打造沉浸式 VR 体验。</p>
+<ul>
+<li>虚拟展厅与数字孪生</li>
+<li>VR 职业技能培训系统</li>
+<li>VR 房地产看房解决方案</li>
+<li>VR 旅游文化展示</li>
+</ul>
+</div>
+
+<h3 id="📱-AR-应用定制"><a href="#📱-AR-应用定制" class="headerlink" title="📱 AR 应用定制"></a>📱 AR 应用定制</h3><div class="svc-card">
+
+<p><strong>增强现实交互应用开发</strong></p>
+<p>将虚拟信息叠加到真实世界，为品牌和用户创造全新互动方式。</p>
+<ul>
+<li>AR 产品说明书（扫描即现）</li>
+<li>AR 营销互动游戏</li>
+<li>AR 地理信息导航</li>
+<li>AR 教育课件制作</li>
+</ul>
+</div>
+
+<h3 id="🌍-元宇宙内容"><a href="#🌍-元宇宙内容" class="headerlink" title="🌍 元宇宙内容"></a>🌍 元宇宙内容</h3><div class="svc-card">
+
+<p><strong>虚拟空间与数字人</strong></p>
+<p>面向企业级元宇宙需求，提供完整的数字空间搭建和数字人制作。</p>
+<ul>
+<li>企业虚拟展厅 &#x2F; 线上发布会</li>
+<li>数字人 IP 设计与驱动</li>
+<li>虚拟主播内容制作</li>
+<li>虚拟社交空间定制</li>
+</ul>
+</div>
+
+<h3 id="🔧-技术咨询"><a href="#🔧-技术咨询" class="headerlink" title="🔧 技术咨询"></a>🔧 技术咨询</h3><div class="svc-card">
+
+<p><strong>VR&#x2F;AR 项目全流程顾问</strong></p>
+<p>从项目立项到落地交付，提供专业技术和执行建议。</p>
+<ul>
+<li>硬件选型与采购建议</li>
+<li>现有项目技术评估</li>
+<li>团队 VR&#x2F;AR 技能培训</li>
+<li>开发流程与质量管控</li>
+</ul>
+</div>
+
+</div>
+
+<hr>
+<h2 id="💡-合作流程"><a href="#💡-合作流程" class="headerlink" title="💡 合作流程"></a>💡 合作流程</h2><table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>内容</th>
+<th>周期</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>需求沟通</td>
+<td>了解业务场景与目标</td>
+<td>1-3 天</td>
+</tr>
+<tr>
+<td>方案设计</td>
+<td>技术选型与交互原型</td>
+<td>3-7 天</td>
+</tr>
+<tr>
+<td>内容开发</td>
+<td>模型、场景、交互开发</td>
+<td>2-8 周</td>
+</tr>
+<tr>
+<td>测试上线</td>
+<td>多平台适配与交付</td>
+<td>1-2 周</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="📞-获取报价"><a href="#📞-获取报价" class="headerlink" title="📞 获取报价"></a>📞 获取报价</h2><p>如需了解具体项目报价，欢迎联系我们：</p>
+<ul>
+<li>📧 邮箱：<strong><a href="mailto:&#x34;&#x38;&#x33;&#x34;&#52;&#x38;&#57;&#x39;&#x36;&#x40;&#113;&#113;&#46;&#x63;&#x6f;&#x6d;">&#x34;&#x38;&#x33;&#x34;&#52;&#x38;&#57;&#x39;&#x36;&#x40;&#113;&#113;&#46;&#x63;&#x6f;&#x6d;</a></strong></li>
+<li>📞 电话：<strong>15970985939</strong></li>
+</ul>
+</div>
+</div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 灵见科技</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></span></div><div class="footer_custom_text">© 2025 江西灵见虚拟现实科技有限公司 | 专注VR/AR内容开发 | 📞 15970985939 | 483448996@qq.com</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/gclink-vr/js/utils.js?v=5.5.5"></script><script src="/gclink-vr/js/main.js?v=5.5.5"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
